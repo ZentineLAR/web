@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 73px; /* Separación de la franja negra */ 
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+.navbar {
+    display: flex;
+    margin-right: 10%;
+}
+
+.logo {
+    margin-left: 85px;
+
+}
+
+.imagen {
+    position: absolute; 
+    float: left;
+    text-align: left;
+    left: 15px;
+    top: 3px;
+
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.navbar a:hover {
+    background: #d8bcbc;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(Img/header.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+.title { /* Edición del apartado HTML */ 
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: #9c27b0;
+    display: inline-flex
+
+}
+.btn:hover {
+    background: none; 
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sau{
+    padding: 30px;
+    background: #202020;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box { /*Edita el tamaño de los cuadros negros donde estan Sketchup PS */ 
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0 .5);
+    margin: 2rem;
+
+}
+
+.box-container .box i { /*Edita el tamaño de los iconos negros donde estan Sketchup PS */
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 { /*Tamaño de la letra CorelDraw, etc */
+    font-size: 20px;
+    color: #9c27b0;
+   
+
+}
+
+.box-container .box p { /*Tamaño de la letra de las frases */
+    padding: 0 15px;
+    font-size: 16px;
+
+}
+
+.about {
+    background: #171717;
+
+}
+
+.price {
+    background: url(Img/costos.png); no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+} 
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+:root{
+    --facebook: #1a5bde;
+    --instagram: #ce0000;
+    --twitter: #00a2ff;
+    --WhatsApp: #02a839;
+    --linkedin: #0b82bd;
+}
+
+.redes-container{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin-bottom: 35em;
+    width: 50px;
+    height: 50px;
+    margin-top: 40em;
+    text-align: center;
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgb(0, 0, 0, .2);
+    transition: .2s;
+}
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(0, 0, 0, .2);
+    filter: none;
+
+}
+
+.redes-container ul li .facebook:hover{
+    background: var(--facebook);
+
+}
+.redes-container ul li .instagram:hover{
+    background: var(--instagram);
+
+}.redes-container ul li .twitter:hover{
+    background: var(--twitter);
+
+}.redes-container ul li .WhatsApp:hover{
+    background: var(--WhatsApp);
+
+}.redes-container ul li .linkedin:hover{
+    background: var(--linkedin);
+
+}
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    
+    }
+    .sau{
+        height: 120vh;
+    }
+    
+        .navbar {
+                display: none;
+        }
+    }
+

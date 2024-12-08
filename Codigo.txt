@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+ <link rel="website icon" type="ico" href="centinela.ico">
+ <link rel="stylesheet" href="style.css">
+  <title>Centinel@</title>
+</head>
+<body>
+  
+  <div class="head">
+    
+    <div class="logo">
+      <a href="#">logo</a>
+    </div>
+
+    <nav class="navbar">
+      <a href="#">Inicio</a>
+      <a href="#">Nosotros</a>
+      <a href="#">Contacto</a>
+      <a href="#">Productos</a>
+      <a href="#">Precio</a>
+    </nav>
+    
+  </div>
+
+<header class="content header">
+  <h2 class="title">Inicio</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  
+  </p>
+
+  <div class="btn-home">
+    <a href="#" class="btn">Saber mas</a>
+    <a href="#" class="btn">Saber mas</a>
+
+  </div>
+
+</header>
+
+<section class="content sau">
+  <h2 class="title">Productos</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod 
+    laudantium tempora alias enim! Saepe, eos, delectus ab 
+    modi qui aperiam laboriosam iste minima earum 
+    dolorem excepturi, et voluptate esse officia. </p>
+
+<div class="box-container">
+
+  <div class="box">
+    <i class="fab fa-angular"></i>
+<h3>Lorem</h3>
+<p>Lorem ipsum dolor sit amet</p>
+  </div>
+
+   
+  <div class="box">
+    <i class="fab fa-apple"></i>
+<h3>Lorem</h3>
+<p>Lorem ipsum dolor sit amet</p>
+  </div>
+
+   
+  <div class="box">
+    <i class="fab fa-android"></i>
+<h3>Lorem</h3>
+<p>Lorem ipsum dolor sit amet</p>
+  </div>
+</div>
+
+</section>
+
+<section class="content about">
+
+  <h2 class="title">Nosotros</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Voluptas nulla explicabo voluptatibus incidunt neque dignissimos ex? Temporibus, ab, 
+    aspernatur, saepe quae laborum vel error delectus excepturi iusto voluptas hic tempore!
+  </p>
+
+    <a href="#" class="btn">Saber mas</a>
+</section>
+
+<section class="content price">
+
+  <article class="contain">
+    <h2 class="title">Precio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Voluptas nulla explicabo voluptatibus incidunt neque dignissimos ex? Temporibus, ab, 
+      aspernatur, saepe quae laborum vel error delectus excepturi iusto voluptas hic tempore!
+    </p>
+      <a href="#" class="btn">Saber Precio</a>
+
+  </article>
+</section>
+
+<section class="content contact">
+
+  <h2 class="title">Contacto</h2>
+  <p>4372349399</p>
+<figure class="map">
+  <img src="img/mapa.png" height="220px" width="100%" alt="mapa"></figure>
+</section>
+</body>
+</html>
